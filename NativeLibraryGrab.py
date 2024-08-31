@@ -4,8 +4,6 @@ import json
 import requests
 import urllib.request as request
 
-if not os.path.isdir(".sos"):
-    os.mkdir(".sos")
 for bye in os.listdir(".sos"):
     os.remove(f'.sos/{bye}')
 
